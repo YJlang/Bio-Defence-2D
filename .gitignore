@@ -1,0 +1,87 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.cs
+!*.unity
+!*.prefab
+!*.mat
+
+# Even if they are in subdirectories
+!*/
+
+# Ignore Unity-specific directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tga
+*.tif
+*.tiff
+*.psd
+*.ai
+
+# Ignore all audio files
+*.mp3
+*.wav
+*.ogg
+
+# Ignore all video files
+*.mp4
+*.mov
+*.avi
+
+# Ignore all 3D model files
+*.fbx
+*.obj
+*.max
+*.blend
+*.dae
+*.3ds
+
+# Ignore all font files
+*.ttf
+*.otf
+
+# Ignore all documentation
+*.pdf
+*.doc
+*.docx
+*.txt
+
+# Ignore all compressed files
+*.zip
+*.rar
+*.7z
+
+# Ignore specific large files
+Assets/Sci-Fi UI/_SciFi_GUISkin_/atlas.png
+Assets/Real Stars Skybox/StarSkybox04/CubemapStars.cubemap
+Assets/Real Stars Skybox/StarSkybox04Named/CubemapStarsNamed.cubemap
+Assets/Real Stars Skybox/StarSkybox04NamedConstell/CubemapStarsNamedConstellations.cubemap
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
